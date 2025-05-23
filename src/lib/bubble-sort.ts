@@ -1,9 +1,4 @@
-import { ArrayValuesStates } from "../types/types.ts";
-
-interface SortItem {
-  value: number;
-  state: ArrayValuesStates;
-}
+import { ArrayValuesStates, type SortItem } from "../types/types.ts";
 
 export function* bubbleSort(array: SortItem[]): Generator<SortItem[], void, unknown> {
   const copyArr = [...array];

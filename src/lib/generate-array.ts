@@ -1,6 +1,6 @@
-import { ArrayValuesStates } from "../types/types.ts";
+import { ArrayValuesStates, type SortItem } from "../types/types.ts";
 
-export function generateArray() {
+export function generateArray(): SortItem[] {
   const arr = [];
 
   for (let i = 0; i < 10; i++) {

@@ -4,3 +4,9 @@ export enum ArrayValuesStates {
   Checked = "checked",
   Off = "off",
 }
+
+export interface SortItem {
+  value: number;
+  state: ArrayValuesStates;
+}
+
