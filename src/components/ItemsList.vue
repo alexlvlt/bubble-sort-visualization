@@ -10,6 +10,7 @@
 .items-list {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 5px;
 }
 </style>
